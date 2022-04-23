@@ -1,7 +1,7 @@
 def main():
     for symbol_count in range(3,6):
         original_file = r".\original-list.txt"
-        new_file = rf".\word-with-{symbol_count}-symbols.txt"
+        new_file = rf".\words-with-{symbol_count}-symbols.txt"
         new_list = []
         with open(original_file, mode="r", encoding="utf-8") as words:
             for word in words:
